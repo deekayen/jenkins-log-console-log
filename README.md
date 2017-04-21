@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/deekayen/jenkins-log-console-log.svg?branch=master)](https://travis-ci.org/deekayen/jenkins-log-console-log)
+
 # Console Log to Workspace
 
 This is a Jenkins plug-in that allows you to save the console log to a file in the
