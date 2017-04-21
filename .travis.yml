@@ -1,5 +1,13 @@
 language: java
-sudo: false
+
+matrix:
+  include:
+  - os: linux
+    sudo: false
+    dist: trusty
+  - os: linux
+    sudo: false
+    dist: precise
 
 install: "mvn -Dmaven.test.skip=true clean install --batch-mode"
 
